@@ -114,7 +114,7 @@ internal class Program
             if (isDraw(array))
             {
                 Console.WriteLine("DRAW !");
-                Console.WriteLine("Press any key to restar a game");
+                Console.WriteLine("Press any key to restar a game!");
                 Console.ReadKey();
                 Console.Clear();
                 array = new string[,] {
